@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service WalletService {
+    rpc Get (WalletId) returns (Wallet) {}
+}
+
+message Empty {}
+
+message Wallet {
+    int64 id = 1;
+    int32 amount = 2;
+    string name = 3;
+}
+
+message WalletId {
+    int64 id = 1;
+}
