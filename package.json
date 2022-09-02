@@ -1,0 +1,19 @@
+{
+  "name": "node-microservice-communication",
+  "version": "1.0.0",
+  "description": "Node Express Microservice Communications",
+  "main": "customer-service.js",
+  "scripts": {
+    "start": "node customer-service.js"
+  },
+  "author": "Priyanthan",
+  "license": "XLS",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "minimist": ">=1.2.2"
+  }
+}
